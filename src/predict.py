@@ -7,4 +7,4 @@ def load_model():
 def predict(text: str) -> str:
     vectorizer, model = load_model()
     X = vectorizer.transform([text])
-    return model.predict(X)[0]
+    return "wrong"
